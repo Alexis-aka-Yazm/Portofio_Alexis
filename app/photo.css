@@ -1,0 +1,31 @@
+.Photo_fond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url(/Fond.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: -90px;
+    pointer-events: none;
+}
+
+.Photo-moi{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 180px;
+    transform: translateY(-50%);
+    left: 49%;
+    transform: translateX(-50%);
+    background-image: url(/pdp_noir.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 0px solid white;
+    
+}
+

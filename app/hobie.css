@@ -1,0 +1,53 @@
+.Info_hobie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.Info_content h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+}
+
+h1 span {
+    color: #4675f4;
+}
+
+
+
+.metier{
+    margin-top: 7rem;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.barre1{
+    background-color: #4675f4;
+    border-radius: 3px;;
+    width: 70%;
+    margin-left: 15%;
+    height: 6px;
+}
+
+.barre2{
+    background-color: #4675f4;
+    border-radius: 3px;
+    width: 100%;
+    height: 6px;
+}
