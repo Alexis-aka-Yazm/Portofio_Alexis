@@ -29,3 +29,26 @@
     
 }
 
+@media screen and (max-width: 1200px){
+    .Photo_fond{
+        top: 20px;
+        height: 400px;
+    }
+    .Photo-moi{
+        width: 200px;
+        height: 200px;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Photo_fond{
+        top: 80px;
+        height: 400px;
+    }
+    .Photo-moi{
+        width: 200px;
+        height: 200px;
+        top: 100px;
+    }
+}

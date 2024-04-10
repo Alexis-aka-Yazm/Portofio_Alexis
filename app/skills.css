@@ -1,10 +1,10 @@
-.Info_hobie{
+.Info_skills{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.hobie{
+.skills{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,13 +12,6 @@
     height: auto;
 }
 
-.Info_content h1{
-    font-size: 40px;
-    font-weight: 400;
-    margin-top: 2rem;
-    font-size: 3.5rem;
-    margin-left: 2rem;
-}
 
 h1 span {
     color: #4675f4;
@@ -31,37 +24,29 @@ h1 span {
 h2{
     font-size: 4rem;
     font-weight: 400;
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-left: 2rem;
     text-align: center;
 }
 
-p{
+.skills p{
     font-size: 2rem;
     font-weight: 400;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    text-align: center;
-    margin: 3rem;
+    width: 400px;
 }
 
-.musique{
-    margin: 3rem;
+.point{
+    width: 200px;
 }
 
-.poids{
-    margin: 3rem;
-}
-
-
-@media screen and (max-width : 800px) {
-    .Info_hobie{
+@media screen and (max-width: 800px){
+    .Info_skills{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    .hobie{
+    .skills{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -69,44 +54,31 @@ p{
         height: auto;
     }
     
-    .Info_content h1{
-        font-size: 40px;
-        font-weight: 400;
-        margin-top: 2rem;
-        font-size: 3.5rem;
-        margin-left: 2rem;
-    }
-    
     h1 span {
         color: #4675f4;
     }
     
     .metier{
-        margin-top: 3rem;
+        margin-top: 7rem;
     }
     
-    .Info_hobie h2{
-        font-size: 2rem;
+    .Info_skills h2{
+        font-size: 1.5rem;
         font-weight: 400;
         margin-top: 2rem;
-        margin-left: 2rem;
+        margin-left: 0rem;
         text-align: center;
     }
     
-    .hobie p{
-        font-size: 0.8rem;
+    .skills p{
+        font-size: 0.6rem;
         font-weight: 400;
-        margin-top: 2rem;
-        margin-left: 2rem;
-        text-align: center;
+        width: 200px;
     }
     
-    .musique{
-        margin: 1rem;
+    .point{
+        width: 100px;
     }
     
-    .poids{
-        margin: 1rem;
-    }
     
 }

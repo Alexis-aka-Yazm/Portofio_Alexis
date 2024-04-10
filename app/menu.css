@@ -56,3 +56,64 @@
 .Menu_links a:last-child{
     width: 40px;
 }
+
+@media screen and (max-width: 800px){
+    .Menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Menu_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    
+    .Menu_title h1{
+        margin-left: 0rem;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+    .Menu_title Image{
+      width: 70px;
+      height: 80px;
+    }
+    
+    .Menu_links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0rem;
+        margin-top: 1rem;
+    }
+    
+    .Menu_links a{
+        margin: 1rem;
+        color: black;
+        text-decoration: none;
+        width: 85px;
+        height: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    
+    .Menu_links a:hover{
+        color: #4675f4;
+    }
+    
+    .Menu_links a:not(:last-child)::after{
+        content : url('../public/rond_bleu.png');
+        margin-left : 2.4rem;
+        display: inline-block;
+    }
+    
+    .Menu_links a:last-child{
+        width: 40px;
+    }
+
+}

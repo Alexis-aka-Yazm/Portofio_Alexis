@@ -19,8 +19,7 @@ export default function Menu() {
             <a href="/info">Info</a>
             
             <a href="/memoire">Mémoire</a>
-            
-            <a href="/contact">Contact</a>
+          
           </div>
         </div>
     );

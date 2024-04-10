@@ -6,18 +6,18 @@ export default function Presentation() {
     return (
     <div className="Info_content">  
         <div className="presentation">
-        <Image
-            src="/pdp_noir.svg"
-            alt="Photo"
-            width={400}
-            height={400}
-            className="spiral"
-        />
+            <Image
+                src="/pdp_noir.svg"
+                alt="Photo"
+                width={400}
+                height={400}
+                className="spiral"
+            />
 
-        <h1>
-            Bonjour, <br />
-            Je suis <span>Alexis</span> <br />Hazebrouck
-        </h1>  
+            <h1>
+                Bonjour, <br />
+                Je suis <span>Alexis</span> <br />Hazebrouck
+            </h1>  
         </div>
         <div className="metier">
             <h2>

@@ -1,0 +1,121 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../public/barre-h.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 4rem;
+}
+
+.foot_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    width: 300px;
+}
+
+.foot_title h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.foot_contact{
+    margin-top: 4rem;
+    width: 300px;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.foot_sommaire{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+
+.foot_sommaire a{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.foot_sommaire a:hover{
+    color: #4675f4;
+}
+
+@media screen and (max-width : 800px) {
+    .foot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../public/barre-h.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        margin-top: 4rem;
+    }
+    
+    .foot_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        width: 300px;
+    }
+    
+    .foot_title h1{
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-left: 1rem;
+    }
+    
+    p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: 2rem;
+    }
+    
+    .foot_contact{
+        margin-top: 4rem;
+        width: 300px;
+        text-align: center;
+        margin-right: 2rem;
+    }
+    
+    .foot_contact p{
+        font-size: 1rem;
+    }
+    
+    .foot_sommaire{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .foot_sommaire a{
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-left: 2rem;
+        text-decoration: none;
+        color: black;
+        display: none;
+    }
+    
+    .foot_sommaire a:hover{
+        color: #4675f4;
+    }
+}

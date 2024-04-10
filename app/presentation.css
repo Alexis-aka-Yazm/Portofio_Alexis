@@ -32,6 +32,7 @@ h1 span {
 
 .metier{
     margin-top: 7rem;
+    margin-bottom: 8rem;
 }
 
 h2{
@@ -55,4 +56,65 @@ h2{
     border-radius: 3px;
     width: 100%;
     height: 6px;
+}
+
+@media screen and (max-width: 800px) { 
+    .Info_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .presentation{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .Info_content h1{
+        font-weight: 400;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    
+    h1 span {
+        color: #4675f4;
+    }
+    
+    .spiral{
+        margin-right: 2rem;
+        background-image: url('../public/spiral.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .metier{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .metier h2{
+        font-size: 2rem;
+        font-weight: 400;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        text-align: center;
+    }
+    
+    .barre1{
+        background-color: #4675f4;
+        border-radius: 3px;;
+        width: 70%;
+        margin-left: 15%;
+        height: 6px;
+    }
+    
+    .barre2{
+        background-color: #4675f4;
+        border-radius: 3px;
+        width: 100%;
+        height: 6px;
+    }
 }
