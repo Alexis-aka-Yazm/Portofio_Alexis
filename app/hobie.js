@@ -33,7 +33,7 @@ export default function Hobie() {
             />
             <p>
                 Ecouter de la musique fais partie de mes activités favorites pour me détendre. 
-                J'adore écouté de la musique en travaillant ou en écouté seul pour analysé les paroles et comprendre le sens de la chanson.
+                J'adore écouter de la musique en travaillant ou en écouter seul pour analysé les paroles et comprendre le sens de la chanson.
             </p>
         </div>
         <div className="hobie">

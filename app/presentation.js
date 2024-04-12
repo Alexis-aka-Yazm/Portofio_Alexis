@@ -27,7 +27,7 @@ export default function Presentation() {
                 </div> 
 
                 <div className="ligne">
-                    J'aspire a devenir un web developpeur ou/et un web designer
+                    J'aspire à devenir un web développeur ou/et un web designer
                     <div className="barre2"></div>
                 </div>
 

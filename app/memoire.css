@@ -36,13 +36,13 @@
 }
 
 .Q1 ul{
-    width: 300px;
+    width: 600px;
     font-size: 1.3rem;
     text-align: center;
 }
 
 .Q2 ul{
-    width: 320px;
+    width: 600px;
     font-size: 1.3rem;
     text-align: center;
 }
@@ -55,6 +55,20 @@
 .Q2 h2{
     width: 420px;
     font-size: 1.6rem;
+}
+
+@media screen and (max-width :1300px){
+    .Q1 ul{
+        width: 400px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .Q2 ul{
+        width: 400px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width :950px){
